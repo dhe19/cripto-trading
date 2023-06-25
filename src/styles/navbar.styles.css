@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@200;300;400;500;600;700;800;900&display=swap");
+@import url("hero.styles.css");
+@import url("navbar.styles.css");
+/* CSS HEX */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Heebo", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #ede9f3;
+}
+
+body {
+  background-color: #381381;
+}
+
+.primary-button {
+  background-color: hsl(305, 93%, 51%);
+  background: linear-gradient(90deg, hsl(305, 93%, 51%) 0%, hsl(16, 95%, 57%) 100%);
+  padding: 5px 25px;
+  border-radius: 15px;
+  border: none;
+  font-weight: lighter;
+  font-size: 15px;
+  outline: none;
+}
+.primary-button:hover {
+  font-weight: 300;
+}
+
+.secondary-button {
+  padding: 5px 25px;
+  border-radius: 15px;
+  border: 1px hsl(16, 95%, 57%) solid;
+  font-weight: lighter;
+  font-size: 15px;
+}
+
+.secondary-button:hover {
+  background-color: hsl(305, 93%, 51%);
+  background: linear-gradient(90deg, hsl(305, 93%, 51%) 0%, hsl(16, 95%, 57%) 100%);
+  font-weight: 300;
+}
+
+.nav-container {
+  margin: 2.5vh 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-container .title {
+  font-size: 16px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #ede9f3;
+}
+.nav-container .nav-menu {
+  display: none;
+}
+.nav-container .nav-menu ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  text-transform: uppercase;
+}
+.nav-container .item-nav {
+  list-style: none;
+  font-size: 14px;
+}
+.nav-container .item-nav a {
+  text-decoration: none;
+  color: #7b6d9e;
+}
+.nav-container .item-nav a:hover {
+  color: #ede9f3;
+}
+.nav-container .nav-actions {
+  display: none;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.nav-container .icon-menu {
+  color: hsl(16, 95%, 57%);
+  font-size: 25px;
+  background: -webkit-linear-gradient(hsl(305, 93%, 51%), hsl(16, 95%, 57%));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media only screen and (min-width: 768px) {
+  .nav-container {
+    margin: 4.5vh;
+  }
+  .nav-container .title {
+    font-size: 18px;
+  }
+  .nav-container .nav-menu {
+    display: flex;
+  }
+  .nav-container .nav-actions {
+    display: flex;
+  }
+  .nav-container .icon-menu {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=navbar.styles.css.map */
