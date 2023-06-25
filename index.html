@@ -9,23 +9,41 @@
       integrity="sha256-fx038NkLY4U1TCrBDiu5FWPEa9eiZu01EiLryshJbCo="
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./src/styles/global.styles.css" />
     <title>Cripo Trading</title>
   </head>
   <body>
-    <header class="container">
-      <h1>CryTrade</h1>
-      <nav>
+    <header class="container mx-auto nav-container">
+      <span class="title">Smart Fi.</span>
+      <div class="icon-menu">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+      <nav class="nav-menu">
         <ul>
-          <li>Earn</li>
-          <li>Trade</li>
-          <li>Borrow</li>
-          <li>Token</li>
-          <li>About</li>
+          <li class="item-nav">
+            <a href="#"> Earn </a>
+          </li>
+          <li class="item-nav">
+            <a href="#"> Trade </a>
+          </li>
+          <li class="item-nav">
+            <a href="#"> Borrow </a>
+          </li>
+          <li class="item-nav">
+            <a href="#"> Token </a>
+          </li>
+          <li class="item-nav">
+            <a href="#"> About </a>
+          </li>
         </ul>
       </nav>
-      <div>
-        <a href="#">Sign In</a>
-        <a href="#">Sign Up</a>
+      <div class="nav-actions">
+        <a class="secondary-button" href="#">Sign In</a>
+        <a class="primary-button" href="#">Sign Up</a>
       </div>
     </header>
     <section class="hero">
