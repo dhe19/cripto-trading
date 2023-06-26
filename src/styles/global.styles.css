@@ -46,4 +46,9 @@ body {
   font-weight: 300;
 }
 
+.cabecera {
+  background: #381381;
+  background: linear-gradient(29deg, #381381 0%, rgba(255, 86, 14, 0.15) 40%, #381381 50%, rgba(255, 86, 14, 0.15) 90%, #381381 100%);
+}
+
 /*# sourceMappingURL=global.styles.css.map */

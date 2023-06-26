@@ -1,6 +1,6 @@
 /* CSS HEX */
 .nav-container {
-  margin: 2.5vh 0;
+  padding: 2.5vh 3vw;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -48,9 +48,9 @@
   -webkit-text-fill-color: transparent;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 992px) {
   .nav-container {
-    margin: 4.5vh;
+    padding: 4.5vh;
   }
   .nav-container .title {
     font-size: 18px;
