@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 @import url("hero.styles.css");
 @import url("navbar.styles.css");
 /* CSS HEX */
@@ -6,7 +6,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Heebo", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 a {
@@ -21,7 +21,7 @@ body {
 .primary-button {
   background: linear-gradient(90deg, hsl(305, 93%, 51%) 0%, hsl(16, 95%, 57%) 100%);
   background-color: hsl(305, 93%, 51%);
-  padding: 5px 25px;
+  padding: 7px 25px;
   border-radius: 15px;
   border: none;
   font-weight: lighter;

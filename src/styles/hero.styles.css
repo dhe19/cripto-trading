@@ -1,3 +1,143 @@
+/* CSS HEX */
 .hero {
-  background-color: red;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+.hero .main-info {
+  position: relative;
+  z-index: 120;
+}
+.hero .main-info .slogan {
+  position: relative;
+  left: 10vw;
+  text-transform: uppercase;
+  font-weight: 500;
+  background: rgb(226, 5, 208);
+  background: linear-gradient(to bottom left, rgb(255, 86, 14) 0%, rgb(226, 5, 208) 75%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: appears 1.8s ease-in;
+}
+.hero .main-info .hero-title-b {
+  font-size: 90px;
+  text-transform: uppercase;
+  font-weight: 900;
+  background: #ede9f3;
+  background: linear-gradient(to bottom left, #ede9f3 70%, #e8abe9 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: moveToCenterReverse 1.8s ease-in-out;
+}
+.hero .main-info .hero-title-m {
+  font-size: 60px;
+  text-transform: uppercase;
+  font-weight: 700;
+  background: #ede9f3;
+  background: linear-gradient(to bottom left, #ede9f3 70%, #e8abe9 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: moveToCenter 1.8s ease-in-out;
+}
+.hero .main-info .p-a {
+  position: relative;
+  left: 10vw;
+}
+.hero .main-info .p-b {
+  position: relative;
+  left: 20vw;
+}
+.hero .main-info .p-c {
+  position: relative;
+  left: 30vw;
+}
+.hero .f-list ul {
+  color: white;
+  font-weight: 100;
+  font-size: 15px;
+  animation: appears 1.8s ease-in;
+}
+
+.promo {
+  position: absolute;
+  bottom: 0;
+  left: 7vw;
+  font-size: 55px;
+  text-transform: uppercase;
+  width: 220px;
+  height: 220px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ede9f3;
+  z-index: 5;
+  background: linear-gradient(45deg, rgb(255, 61, 229) 25%, hsl(16, 95%, 57%) 100%);
+  background-color: rgb(255, 61, 229);
+  color: #ede9f3;
+  animation: beep infinite 5s ease-in-out;
+}
+.promo p {
+  margin-top: 20px;
+  line-height: 45px;
+}
+.promo::after {
+  content: "";
+  width: 90%;
+  height: 90%;
+  position: absolute;
+  border-radius: 100%;
+  z-index: -1;
+}
+.promo::before {
+  content: "";
+  width: 80%;
+  height: 80%;
+  background-color: #381381;
+  position: absolute;
+  border-radius: 100%;
+  z-index: -1;
+}
+
+@keyframes moveToCenter {
+  from {
+    opacity: 0;
+    transform: translate(-300px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+@keyframes moveToCenterReverse {
+  from {
+    opacity: 0;
+    transform: translate(300px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+@keyframes beep {
+  0% {
+    transform: scale(0.9);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.9);
+  }
+}
+@keyframes appears {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/*# sourceMappingURL=hero.styles.css.map */
