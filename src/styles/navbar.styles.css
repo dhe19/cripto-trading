@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Heebo:wght@200;300;400;500;600;700;800;900&display=swap");
 @import url("hero.styles.css");
 @import url("navbar.styles.css");
-
 /* CSS HEX */
 * {
   margin: 0;
@@ -29,7 +28,6 @@ body {
   font-size: 15px;
   outline: none;
 }
-
 .primary-button:hover {
   font-weight: 300;
 }
@@ -54,18 +52,15 @@ body {
   align-items: center;
   justify-content: space-between;
 }
-
 .nav-container .title {
   font-size: 16px;
   font-weight: 300;
   text-transform: uppercase;
   color: #ede9f3;
 }
-
 .nav-container .nav-menu {
   display: none;
 }
-
 .nav-container .nav-menu ul {
   padding: 0;
   margin: 0;
@@ -75,28 +70,23 @@ body {
   gap: 40px;
   text-transform: uppercase;
 }
-
 .nav-container .item-nav {
   list-style: none;
   font-size: 14px;
 }
-
 .nav-container .item-nav a {
   text-decoration: none;
   color: #7b6d9e;
 }
-
 .nav-container .item-nav a:hover {
   color: #ede9f3;
 }
-
 .nav-container .nav-actions {
   display: none;
   gap: 20px;
   align-items: center;
   justify-content: center;
 }
-
 .nav-container .icon-menu {
   color: hsl(16, 95%, 57%);
   font-size: 25px;
@@ -109,20 +99,18 @@ body {
   .nav-container {
     margin: 4.5vh;
   }
-
   .nav-container .title {
     font-size: 18px;
   }
-
   .nav-container .nav-menu {
     display: flex;
   }
-
   .nav-container .nav-actions {
     display: flex;
   }
-
   .nav-container .icon-menu {
     display: none;
   }
 }
+
+/*# sourceMappingURL=navbar.styles.css.map */
