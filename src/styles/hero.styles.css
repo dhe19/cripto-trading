@@ -5,10 +5,12 @@
   align-items: center;
   justify-content: center;
 }
+
 .hero .main-info {
   position: relative;
   z-index: 120;
 }
+
 .hero .main-info .slogan {
   position: relative;
   text-transform: uppercase;
@@ -19,6 +21,7 @@
   -webkit-text-fill-color: transparent;
   animation: appears 1.8s ease-in;
 }
+
 .hero .main-info .hero-title-b {
   font-size: 45px;
   text-transform: uppercase;
@@ -29,6 +32,7 @@
   -webkit-text-fill-color: transparent;
   animation: moveToCenterReverse 1.8s ease-in-out;
 }
+
 .hero .main-info .hero-title-m {
   font-size: 30px;
   text-transform: uppercase;
@@ -39,6 +43,7 @@
   -webkit-text-fill-color: transparent;
   animation: moveToCenter 1.8s ease-in-out;
 }
+
 .hero .f-list ul {
   margin-top: 15px;
   color: white;
@@ -47,9 +52,11 @@
   animation: appears 1.8s ease-in;
   padding-left: 18px;
 }
+
 .hero .f-list ul li {
   list-style-type: none;
 }
+
 .hero .f-list ul li span {
   display: inline-block;
   margin-right: 5px;
@@ -59,6 +66,7 @@
   border-radius: 50%;
   text-indent: 5px;
 }
+
 .hero .btn-anim {
   animation: appears 1.8s ease-in;
 }
@@ -75,17 +83,18 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #ede9f3;
   z-index: 5;
   background: linear-gradient(45deg, rgb(255, 61, 229) 25%, hsl(16, 95%, 57%) 100%);
-  background-color: rgb(255, 61, 229);
+  background-color: #ede9f3;
   color: #ede9f3;
   animation: beep infinite 5s ease-in-out;
 }
+
 .promo p {
   margin-top: 15px;
   line-height: 17px;
 }
+
 .promo::after {
   content: "";
   width: 90%;
@@ -94,6 +103,7 @@
   border-radius: 100%;
   z-index: -1;
 }
+
 .promo::before {
   content: "";
   width: 80%;
@@ -108,28 +118,35 @@
   .hero .main-info .slogan {
     left: 10vw;
   }
+
   .hero .main-info .hero-title-b {
     font-size: 90px;
   }
+
   .hero .main-info .hero-title-m {
     font-size: 60px;
   }
+
   .hero .main-info .p-a {
     position: relative;
     left: 10vw;
   }
+
   .hero .main-info .p-b {
     position: relative;
     left: 20vw;
   }
+
   .hero .main-info .p-c {
     position: relative;
     left: 30vw;
   }
+
   .hero .main-info .f-list {
     padding-left: 0;
     margin-top: 0;
   }
+
   .promo {
     top: auto;
     right: auto;
@@ -139,49 +156,57 @@
     width: 220px;
     height: 220px;
   }
+
   .promo p {
     margin-top: 20px;
     line-height: 45px;
   }
 }
+
 @keyframes moveToCenter {
   from {
     opacity: 0;
     transform: translate(-300px);
   }
+
   to {
     opacity: 1;
     transform: translate(0);
   }
 }
+
 @keyframes moveToCenterReverse {
   from {
     opacity: 0;
     transform: translate(300px);
   }
+
   to {
     opacity: 1;
     transform: translate(0);
   }
 }
+
 @keyframes beep {
   0% {
     transform: scale(0.9);
   }
+
   50% {
     transform: scale(1);
   }
+
   100% {
     transform: scale(0.9);
   }
 }
+
 @keyframes appears {
   from {
     opacity: 0;
   }
+
   to {
     opacity: 1;
   }
 }
-
-/*# sourceMappingURL=hero.styles.css.map */

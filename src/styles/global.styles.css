@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 @import url("hero.styles.css");
 @import url("navbar.styles.css");
+
 /* CSS HEX */
 * {
   margin: 0;
@@ -28,6 +29,7 @@ body {
   font-size: 15px;
   outline: none;
 }
+
 .primary-button:hover {
   font-weight: 300;
 }
@@ -50,5 +52,3 @@ body {
   background: #381381;
   background: linear-gradient(29deg, #381381 0%, rgba(255, 86, 14, 0.15) 40%, #381381 50%, rgba(255, 86, 14, 0.15) 90%, #381381 100%);
 }
-
-/*# sourceMappingURL=global.styles.css.map */
